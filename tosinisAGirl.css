@@ -1,4 +1,16 @@
+/* First Font */
+@font-face {
+    font-family: 'HeadingFont';
+    src: url('Assets/font/KGTeacherJordan.otf') format('opentype');
+    font-display: swap;
+}
 
+/* Second Font */
+@font-face {
+    font-family: 'BodyFont';
+    src: url('Assets/font/PALSCRI.TTF') format('truetype');
+    font-display: swap;
+}
 * {
     margin: 0;
     padding: 0;
