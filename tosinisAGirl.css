@@ -54,7 +54,7 @@ section {
     min-width: 60vw;
     width: 100%;
     min-height: 60vh;
-    background-image: url(Assets/Illustrator/fin/hvd_asset.svg);
+    /* background-image: url(Assets/Illustrator/fin/hvd_asset.svg); */
     background-repeat:no-repeat ;
     padding:10%;
     background-position: center;
