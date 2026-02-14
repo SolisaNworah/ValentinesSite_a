@@ -74,13 +74,14 @@ section {
 }
 
 .intro-content2 {
+    min-width: 60vw;
+    width: 100%;
     min-height: 60vh;
-    display: flex; /* Centers the inner image */
-    align-items: center;
-    justify-content: center;
-    background-size: contain; 
-    background-repeat: no-repeat;
+    background-image: url(Assets/Illustrator/fin/hvd_asset.svg);
+    background-repeat:no-repeat ;
+    padding:10%;
     background-position: center;
+    background-size: cover;
 }
 
 #bg2 {
@@ -90,7 +91,7 @@ section {
 .intro-content2 img {
     width:80%;
     height:auto;
-    margin-top: 10%; /*fix the width on small phones*/
+    margin-top: 10% /*fix the width on small phones*/
 
 }
 
