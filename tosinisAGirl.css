@@ -36,7 +36,7 @@ section {
 
 /* HERO SECTION */
 .hero {
-    background: linear-gradient(to bottom, #ffe4ec, #fff6f8);
+    /* background: linear-gradient(to bottom, #ffe4ec, #fff6f8); */
     padding: 100px 20px;
 }
 
@@ -54,7 +54,7 @@ section {
     min-width: 60vw;
     width: 100%;
     min-height: 60vh;
-    background-image: url(../Assets/Illustrator/fin/hvd_asset.svg);
+    background-image: url(Assets/Illustrator/fin/hvd_asset.svg);
     background-repeat:no-repeat ;
     padding:10%;
     background-position: center;
@@ -241,6 +241,10 @@ footer p{
 /* .grid-item:hover {
     transform: scale(1.03);
 } */
+
+#bg2{
+    background-image: url(Assets/Illustrator/fin/Tosin_asset.svg);
+}
 
 .grid-item img {
     width: 100%;
