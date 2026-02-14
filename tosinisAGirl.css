@@ -73,6 +73,29 @@ section {
     max-width: 600px;
 }
 
+.intro-content2 {
+    min-width: 60vw;
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(Assets/Illustrator/fin/Tosin_asset.svg);
+    background-repeat:no-repeat ;
+    padding:10%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.intro-content2 img {
+    width:80%;
+    height:auto;
+    margin-top: 10%; /*fix the width on small phones*/
+
+}
+
+.intro-content2 p {
+    max-width: 600px;
+}
+
 .bt{
     margin-top:6vh;
     justify-content: center;
