@@ -242,10 +242,12 @@ footer p{
     transform: scale(1.03);
 } */
 
-#bg2{
-    background-image: url(Assets/Illustrator/fin/Tosin_asset.svg);
+#bg2 {
+    background-image: url("Assets/Illustrator/fin/Tosin_asset.svg") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
 .grid-item img {
     width: 100%;
     height: 100%;
