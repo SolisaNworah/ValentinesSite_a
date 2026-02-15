@@ -1,16 +1,4 @@
-/* First Font */
-@font-face {
-    font-family: 'HeadingFont';
-    src: url('Assets/font/KGTeacherJordan.otf') format('opentype');
-    font-display: swap;
-}
 
-/* Second Font */
-@font-face {
-    font-family: 'BodyFont';
-    src: url('Assets/font/PALSCRI.TTF') format('truetype');
-    font-display: swap;
-}
 * {
     margin: 0;
     padding: 0;
@@ -116,7 +104,7 @@ section {
 
 /* LETTER */
 .letter-box {
-    /* max-width: 700px; */
+    max-width: 700px;
     margin: 40px auto;
     /* padding: 40px; */
     border-radius: 20px;
@@ -219,9 +207,6 @@ footer p{
     }
 }
 
-
-
-
 .imgs{
     display: flex;
     justify-content: space-between;
@@ -234,11 +219,6 @@ footer p{
     width:13%
     
 }
-
-
-
-
-
 
 .photo-gallery {
     padding: 60px 20px;
@@ -255,7 +235,7 @@ footer p{
 /* GRID CONTAINER */
 .grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-columns: repeat(2, 1fr); 
     /* gap: 4px; */
     max-width: 900px;
     margin: 0 auto;
@@ -268,16 +248,8 @@ footer p{
 .grid-item {
     background: #591219;
     padding: 10px;
-    /* height: 50%; */
-    /* border-radius: 20px; */
     overflow: hidden;
-    /* transition: transform 0.3s ease; */
 }
-
-/* .grid-item:hover {
-    transform: scale(1.03);
-} */
-
 
 .grid-item img {
     width: 100%;
@@ -289,7 +261,7 @@ footer p{
 
 /* MOBILE */
 @media (max-width: 768px) {
-    .grid {
+    /* .grid {
         grid-template-columns: 1fr; /* 1 column on small screens */
-    }
+    } */
 }
